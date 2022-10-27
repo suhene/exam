@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+/* Layout */
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.col-2{
+    width: calc(100%/2);
+    flex-grow: 1;
+    flex-basis: 400px;
+}
+.col-4{
+    width: calc(100%/4);
+    flex-grow: 1;
+    flex-basis: 400px;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.clr{
+    clear: both;
+}
+
+/* Font-size */
+
+.small{
+    font-size: 1.25rem;
+}
+.medium{
+    font-size: 1.5rem;
+}
+.large{
+    font-size: 2rem;
+}
+.xl{
+    font-size: 2.5rem;
+}
+.xxl{
+    font-size: 4rem;
+}
+
+/* Home page & Navbar */
+
+header{
+    align-items: center;
+    padding: 1.5rem 3rem;
+}
+
+header ul{
+    display: flex;
+    align-items: center;
+}
+header ul li{
+    margin-right: 25px;
+}
+header ul li a{
+    color: black;
+}
+
+/* galaxy z flip */
+
+.hehe{
+    position: relative;
+    background-image: url('/img/flip-4.png');
+    width: 100vw;
+    height: 100vh;
+}
+.hehe h1{
+    position: absolute;
+    top:50%;
+    left: 10%;
+}
+.highlights{
+    background-image: url('/img/image-5.png');
+    background-size: cover;
+    height: 55vh;
+    padding: 3% 5%;
+    
+}
+#galaxy{
+    color: white;
+}
+.film{
+    background-image: url('/img/image-6.png');
+    background-size:cover;
+    height: 55vh;
+    padding: 3% 5%;
+}
+.highlights h2{
+    text-align: end;
+}
+
+
+/* new galaxy */
+#new-h3{
+    position: absolute;
+    left:34%;
+    top: 85%;
+}
+#new-h3-2{
+    position: absolute;
+    left: 37%;
+    top: 85%;
+}
+#h3-different{
+    position: absolute;
+    left: 15%;
+    top: 85%;
+}
+.new-image{
+    padding: 14% 0;
+    background-size: cover;
+    position: relative;
+}
+.new-image1{
+    padding: 14% 0;
+    background-size: cover;
+    position: relative;
+}
+.new-image2{
+    padding: 14% 0;
+    background-size: cover;
+    position: relative;
+}
+
+/* FOOTER */
+
+footer ul li a{
+    color: #999999;
+    border-right: #999999;
+}
+footer ul{
+    margin-right: 100px;
+}
+
